@@ -55,17 +55,16 @@ Experiment with different feature types (unigrams, characters, character bigrams
 ## Project Results
 Processed 11,000 text samples in 11 languages.
 Achieved 97.8% accuracy using Logistic Regression with unigram features.
-Detailed results and methodology can be found in the full writeup.
+Detailed results and methodology can be found in the [full writeup](language_id_writeup.pdf).
 
 ## Repository Contents
-language_id.py: Source code for the project.
-data/: Sample data used for training and testing.
-Language_Identification_Project_Writeup.pdf: Full project writeup.
+- `language_id.py`: Source code for the project.
+- `data/`: Sample data used for training and testing.
+- `language_id_writeup.pdf`: Full project writeup.
 
 ## Contact
 For any questions or collaborations, please reach out to oakesjade@gmail.com.
 
-
-
+##
 
 This README provides an overview of the Language Identification Final Project script. For further details on the code implementation and functionality, please refer to the comments within the script itself.
