@@ -19,19 +19,25 @@ This Python program is a final project for language identification using machine
 Ensure that all required libraries are installed. You can install them using pip:
 ```bash
 pip install pandas numpy nltk scikit-learn
+```
 
 Download the NLTK data for tokenization:
+```bash
 import nltk
 nltk.download('punkt')
+```
 
 Prepare your dataset in CSV format. The dataset should contain a column with text data and a column indicating the language of each text sample.
 
 Update the dataset.csv filename in the script to match your dataset.
 
 Run the script:
+```bash
 python language_id.py
+```
 
-## Functionality:
+
+## Functionality
 The program splits the dataset into training, development (dev), and test sets.
 It tokenizes text data into unigrams, characters, and character bigrams.
 Features are vectorized using DictVectorizer.
@@ -39,25 +45,27 @@ Three machine learning algorithms are used: Naive Bayes, Logistic Regression, an
 The program performs hyperparameter tuning and evaluates the models on the dev set.
 Finally, it evaluates the best-performing models on the test set and prints classification reports and accuracy scores.
 
-## Output:
+## Output
 The program prints classification reports and accuracy scores for each model and feature type. Results are displayed for default hyperparameters as well as modified hyperparameters. Output for Naive Bayes, Logistic Regression, and Random Forest models are separated for easy interpretation.
 
-## Additional Notes:
+## Additional Notes
 Make sure to customize hyperparameters, such as alpha for Naive Bayes and C for Logistic Regression, based on your dataset and performance requirements.
 Experiment with different feature types (unigrams, characters, character bigrams) to see which yields the best results for your dataset.
 
-Project Results
+## Project Results
 Processed 11,000 text samples in 11 languages.
 Achieved 97.8% accuracy using Logistic Regression with unigram features.
 Detailed results and methodology can be found in the full writeup.
 
-Repository Contents
+## Repository Contents
 language_id.py: Source code for the project.
 data/: Sample data used for training and testing.
 Language_Identification_Project_Writeup.pdf: Full project writeup.
 
-Contact
+## Contact
 For any questions or collaborations, please reach out to oakesjade@gmail.com.
+
+
 
 
 This README provides an overview of the Language Identification Final Project script. For further details on the code implementation and functionality, please refer to the comments within the script itself.
