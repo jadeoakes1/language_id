@@ -48,4 +48,4 @@ Make sure to customize hyperparameters, such as alpha for Naive Bayes and C for 
 Experiment with different feature types (unigrams, characters, character bigrams) to see which yields the best results for your dataset.
 
 
-This README provides an overview of the Language Identification Final Project script. For further details on the code implementation and functionality, please refer to the comments within the script itself. If you have any questions or issues, feel free to contact the author.
+This README provides an overview of the Language Identification Final Project script. For further details on the code implementation and functionality, please refer to the comments within the script itself. If you have any questions or issues, feel free to contact me.
