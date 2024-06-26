@@ -59,7 +59,7 @@ Detailed results and methodology can be found in the [full writeup](language_id_
 
 ## Repository Contents
 - `language_id.py`: Source code for the project.
-- `data/`: Sample data used for training and testing.
+- `dataset.csv`: Sample data used for training and testing.
 - `language_id_writeup.pdf`: Full project writeup.
 
 ## Contact
